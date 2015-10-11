@@ -22,6 +22,8 @@ These web services are currently being developed by SDSC (Choonhan and Dave).
 
 ## 2. WOF/WaterML 1.x Access from CZOData
 
+See discussions and information at the [CZOData/CZOWOFWaterML1 repo](https://github.com/CZOData/CZOWOFWaterML1).
+
 
 ## 3. IGSN/SESAR web services, MG-RAST
 
