@@ -16,10 +16,24 @@ These web services are currently being developed by SDSC (Choonhan and Dave).
 
 ### ODM2 WOFpy WOF 1 endpoint
 - https://github.com/ODM2/WOFpy
-- From Choonhan: "David and I have worked on WOFpy service with ODM2. Currently, we have released WaterML1.0 format for REST and SOAP service on the github. [We continue working on WaterML1.1 format](https://github.com/ODM2/WOFpy/issues/2) as well so that we have a plan to release it." Test endpoints:
-  - REST API: http://sis-devel.cloudapp.net:8080
-  - SOAP API: http://sis-devel.cloudapp.net:8080/soap/wateroneflow.wsdl
-
+- From Choonhan, 10/15/2015: "I have developed two DAO(Data Access Object)s on WOFpy with ODM2, one for specimen data (especially, Emilio’s data), the other for time series (Jeff’s multiple time series data). Both waterML1.0 and waterML 1.1 are supported now. Here are test sites:
+  1. **Specimen data:** Emilio is using three discriminators (variable code, unit id, sample medium) for the variable code. In [github issue 15](https://github.com/ODM2/WOFpy/issues/15), he said, "for example, it does distinguish between the two FPOC occurrences I've described. The two string values of varunitsm_cd for FPOC are 'FPOC::1-Liquid aqueous' and 'FPOC::12-Liquid aqueous', where 1 and 12 are the two different UnitsID values". And since WOF 1.0 does not support multiple time series to get value data, in this use case, I used this form as the variable code. But, WOF 1.1 solved this problem.
+    - WOF 1.0
+      - REST API: http://sis-devel.cloudapp.net:8080/
+      - SOAP API: http://sis-devel.cloudapp.net:8080/saop/wateroneflow.wsdl
+    - WOF 1.1
+      - REST API: http://sis-devel.cloudapp.net:8080/rest_1_1/
+      - SOAP API: http://sis-devel.cloudapp.net:8080/soap/wateroneflow_1_1.wsdl
+  2. **Time series data:**
+    - WOF 1.0
+      - REST API: http://sis-devel.cloudapp.net:7070/
+      - SOAP API: http://sis-devel.cloudapp.net:7070/saop/wateroneflow.wsdl
+    - WOF 1.1
+      - REST API: http://sis-devel.cloudapp.net:7070/rest_1_1/
+      - SOAP API: http://sis-devel.cloudapp.net:7070/soap/wateroneflow_1_1.wsdl
+- From Dave V., 10/16/2015, regarding WOF 1.1 documentation: I put some stuff in the test area. Should probably get moved to the docs, since we're done.
+  - https://github.com/ODM2/WOFpy/tree/wml_1_1/test
+  - https://github.com/ODM2/WOFpy/blob/wml_1_1/test/WaterML_1_1_part2_v1.pdf
 
 ## 2. WOF/WaterML 1.x Access from CZOData
 
