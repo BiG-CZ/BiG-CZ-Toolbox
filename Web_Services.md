@@ -14,15 +14,15 @@ These web services are currently being developed by SDSC (Choonhan and Dave).
 - [Feedback on the alpha release - Part 1](https://github.com/ODM2/ODM2RESTfulWebServices/issues/1)
 - [Illustrating the use of ODM2 REST web services with the ODM2 Marchantaria use case (ipython notebook)](http://nbviewer.ipython.org/github/BiG-CZ/BiG-CZ-Toolbox/blob/master/ipynotebooks/ODM2RESTdemo_MarchantariaUseCase.ipynb)
 
-### ODM2 WOFpy WOF 1 endpoint
+### ODM2 WOFpy WOF 1.x endpoints
 - https://github.com/ODM2/WOFpy
 - From Choonhan, 10/15/2015 (updated 11/6): "I have developed two DAO(Data Access Object)s on WOFpy with ODM2, one for specimen data (especially, Emilio's data), the other for time series (Jeff's multiple time series data). Both waterML1.0 and waterML 1.1 are supported now." Regarding **Specimen data:** Emilio is using three discriminators (variable code, unit id, sample medium) for the variable code. In [github issue 15](https://github.com/ODM2/WOFpy/issues/15), he said, "for example, it does distinguish between the two FPOC occurrences I've described. The two string values of varunitsm_cd for FPOC are 'FPOC::1-Liquid aqueous' and 'FPOC::12-Liquid aqueous', where 1 and 12 are the two different UnitsID values". And since WOF 1.0 does not support multiple time series to get value data, in this use case, I used this form as the variable code. But, WOF 1.1 solved this problem.
+- From conf call, 11/6/2015: URLS (note: the URL’s are case sensitive! Damn Microsoft):
+  - **measurement** type (or use case): http://sis-devel.cloudapp.net:8080/measurement/ODM2WofPy/ Specific endpoints (all available from the above url): [rest 1.0](http://sis-devel.cloudapp.net:8080/measurement/ODM2WofPy/rest_1_0/) - [rest 1.1](http://sis-devel.cloudapp.net:8080/measurement/ODM2WofPy/rest_1_1/) - [soap 1.0](http://sis-devel.cloudapp.net:8080/measurement/ODM2WofPy/soap/wateroneflow.wsdl) - [soap 1.1](http://sis-devel.cloudapp.net:8080/measurement/ODM2WofPy/soap/wateroneflow_1_1.wsdl)
+  - **time series** type (or use case): http://sis-devel.cloudapp.net:8080/timeseries/ODM2WofPy/ Specific endpoints (all available from the above url): [rest 1.0](http://sis-devel.cloudapp.net:8080/timeseries/ODM2WofPy/rest_1_0/) - [rest 1.1](http://sis-devel.cloudapp.net:8080/timeseries/ODM2WofPy/rest_1_1/) - [soap 1.0](http://sis-devel.cloudapp.net:8080/timeseries/ODM2WofPy/soap/wateroneflow.wsdl) - [soap 1.1](http://sis-devel.cloudapp.net:8080/timeseries/ODM2WofPy/soap/wateroneflow_1_1.wsdl)
 - From Dave V., 10/16/2015, regarding WOF 1.1 documentation: I put some stuff in the test area. Should probably get moved to the docs, since we're done.
   - https://github.com/ODM2/WOFpy/tree/wml_1_1/test
   - https://github.com/ODM2/WOFpy/blob/wml_1_1/test/WaterML_1_1_part2_v1.pdf
-- From conf call, 11/6/2015: URLS (note: the URL’s are case sensitive! Damn Microsoft):
-  - **measurement** type (or use case): http://sis-devel.cloudapp.net:8080/measurement/ODM2WofPy/ Specific endpoints: [rest 1.0](http://sis-devel.cloudapp.net:8080/measurement/ODM2WofPy/rest_1_0/) - [rest 1.1](http://sis-devel.cloudapp.net:8080/measurement/ODM2WofPy/rest_1_1/) - [soap 1.0](http://sis-devel.cloudapp.net:8080/measurement/ODM2WofPy/soap/wateroneflow.wsdl) - [soap 1.1](http://sis-devel.cloudapp.net:8080/measurement/ODM2WofPy/soap/wateroneflow_1_1.wsdl)
-  - **time series** type (or use case): http://sis-devel.cloudapp.net:8080/timeseries/ODM2WofPy/ Specific endpoints: [rest 1.0](http://sis-devel.cloudapp.net:8080/timeseries/ODM2WofPy/rest_1_0/) - [rest 1.1](http://sis-devel.cloudapp.net:8080/timeseries/ODM2WofPy/rest_1_1/) - [soap 1.0](http://sis-devel.cloudapp.net:8080/timeseries/ODM2WofPy/soap/wateroneflow.wsdl) - [soap 1.1](http://sis-devel.cloudapp.net:8080/timeseries/ODM2WofPy/soap/wateroneflow_1_1.wsdl)
 
 
 ## 2. WOF/WaterML 1.x Access from CZOData
@@ -47,4 +47,5 @@ I did these requests and processing on IPython notebooks. I can share those even
 ## 4. ulmo, pyoos, and other general data access libraries
 - Check out [ulmo](http://ulmo.readthedocs.org) and [pyoos](https://github.com/ioos/pyoos/). The former is focused mainly on hydrological and met data, and the latter on oceanographic data; but they definitely overlap, and have a couple of duplicated readers.
 - ["SciPy discussions on Python water & met data access (including IOOS SOS) client libraries".](https://groups.google.com/d/msg/ioos_tech/ztzB5qEPpTc/SG2Uowoo_OQJ) A burst of enthusiasm of mine from July 2013. Still relevant, and cool developments have taken place since then.
-- There are now many ulmo and pyoos IPython notebooks from the community that can be shared and highlighted. I'll do this later.
+- There are now many ulmo and pyoos Jupyter notebooks from the community that can be shared and highlighted. I'll do this later.
+- **11/6: Stub for update soon:** I recently created a Jupyter notebook that demos both ulmo and pyoos together, then combines time series responses from both (at least on a plot). I'll link to it once I've finalized the notebook and pushed it online.
