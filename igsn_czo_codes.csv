@@ -1,13 +1,13 @@
-namespace,czovizerjsoncd,field_program
-,boulder,Boulder Critical Zone Observatory (CZO)
-IEJCA,calhoun,Calhoun Critical Zone Observatory (CZO)
-,catalinajemez,Catalina-Jemez Critical Zone Observatory (CZO)
-IESW1,christina,Christina Critical Zone Observatory (CZO)
-,eel,Eel Critical Zone Observatory (CZO)
-IENWU,iml,IML Critical Zone Observatory (CZO)
-IELCZ,luquillo,Luquillo Critical Zone Observatory (CZO)
-LCZ,luquillo,Luquillo Critical Zone Observatory (CZO)
-IERCO,reynolds,Reynolds Critical Zone Observatory (CZO)
-SSH,shalehills,Susquehanna Shale Hills Critical Zone Observatory (CZO)
-,sierra,Sierra Critical Zone Observatory (CZO)
-,nationalnetwork,National Critical Zone Observatory (CZO)
+namespace,czovizerjsoncd,field_program,czo_shortname,czo_url
+,boulder,Boulder Critical Zone Observatory (CZO),Boulder CZO,http://criticalzone.org/boulder
+IEJCA,calhoun,Calhoun Critical Zone Observatory (CZO),Calhoun CZO,http://criticalzone.org/calhoun
+,catalinajemez,Catalina-Jemez Critical Zone Observatory (CZO),Catalina-Jemez CZO,http://criticalzone.org/jemez-catalina
+IESW1,christina,Christina Critical Zone Observatory (CZO),Christina CZO,http://criticalzone.org/christina
+,eel,Eel Critical Zone Observatory (CZO),Eel CZO,http://criticalzone.org/eel
+IENWU,iml,IML Critical Zone Observatory (CZO),IML CZO,http://criticalzone.org/iml
+IELCZ,luquillo,Luquillo Critical Zone Observatory (CZO),Luquillo CZO,http://criticalzone.org/luquillo
+LCZ,luquillo,Luquillo Critical Zone Observatory (CZO),Luquillo CZO,http://criticalzone.org/luquillo
+IERCO,reynolds,Reynolds Critical Zone Observatory (CZO),Reynolds CZO,http://criticalzone.org/reynolds
+SSH,shalehills,Susquehanna Shale Hills Critical Zone Observatory (CZO),Shale Hills CZO,http://criticalzone.org/shale-hills
+,sierra,Sierra Critical Zone Observatory (CZO),Sierra CZO,http://criticalzone.org/sierra
+,nationalnetwork,National Critical Zone Observatory (CZO),,
