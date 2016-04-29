@@ -5,8 +5,7 @@ IEJCA,calhoun,Calhoun Critical Zone Observatory (CZO),Calhoun CZO,http://critica
 IESW1,christina,Christina Critical Zone Observatory (CZO),Christina CZO,http://criticalzone.org/christina
 ,eel,Eel Critical Zone Observatory (CZO),Eel CZO,http://criticalzone.org/eel
 IENWU,iml,IML Critical Zone Observatory (CZO),IML CZO,http://criticalzone.org/iml
-IELCZ,luquillo,Luquillo Critical Zone Observatory (CZO),Luquillo CZO,http://criticalzone.org/luquillo
-LCZ,luquillo,Luquillo Critical Zone Observatory (CZO),Luquillo CZO,http://criticalzone.org/luquillo
+IELCZ;LCZ,luquillo,Luquillo Critical Zone Observatory (CZO),Luquillo CZO,http://criticalzone.org/luquillo
 IERCO,reynolds,Reynolds Critical Zone Observatory (CZO),Reynolds CZO,http://criticalzone.org/reynolds
 SSH,shalehills,Susquehanna Shale Hills Critical Zone Observatory (CZO),Shale Hills CZO,http://criticalzone.org/shale-hills
 IE117,sierra,Sierra Critical Zone Observatory (CZO),Sierra CZO,http://criticalzone.org/sierra
