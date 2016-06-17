@@ -1,5 +1,7 @@
-Web Services in the BiGCZ
+Web Services for the BiGCZ
 =========================
+
+*Most of this content is from Emilio and was written/updated in 2015. Exceptions are noted below, specially in sections 1 and 3.*
 
 ## 1. ODM2 Web Services
 
@@ -30,7 +32,19 @@ These web services are currently being developed by SDSC (Choonhan and Dave).
 See discussions and information at the [CZOData/CZOWOFWaterML1 repo](https://github.com/CZOData/CZOWOFWaterML1).
 
 
-## 3. IGSN/SESAR web services, MG-RAST
+## 3. IEDA and National Geothermal Data System listing from Steve Richards, 6/17/2016. 
+
+- Listing of the [WFS from National Geothermal Data System](http://search.geothermaldata.org/dataset?res_format=wfs); content models of potential CZO interest include well headers, well log observation, Aqueous Chemistry, Thermal Springs, Geologic units, Rock Chemistry, Quaternary faults, seismic events, volcanic vents.
+- Data services from IEDA are listed [here](http://www.iedadata.org/services/webservices). Here are a few of them:
+  - IEDA/EarthChem portal services: [OGC WFS 1.0.0](http://ecp.iedadata.org/wfs/ows?service=wfs&version=1.0.0&request=GetCapabilities); info at http://ecp.iedadata.org/webservices (note the getCapabilities link on that page is broken)
+  - IEDA Global Multi-resolution topography might also be useful
+    - Mercator GMRT v3.x WMS. [Unmasked](http://www.marine-geo.org/services/wms?request=GetCapabilities&service=WMS&version=1.0.0) and [Masked](http://www.marine-geo.org/services/wms_mask?request=GetCapabilities&service=WMS&version=1.0.0)
+    - South Polar Stereo GMRT v3.x WMS. [Unmasked](http://www.marine-geo.org/services/wms_SP?request=GetCapabilities&service=WMS&version=1.0.0) and [Masked](http://www.marine-geo.org/services/wms_SP_mask?request=GetCapabilities&service=WMS&version=1.0.0)
+  - [IEDA/ SESAR (sample registration) WFS](http://prod-app.earthchem.org:8989/geoserver/SESAR/ows?service=WFS&request=GetCapabilities)
+
+
+
+## 4. IGSN/SESAR web services, MG-RAST
 
 ### Web services
 The [vizer-based, BiGCZ Portal proof-of-concept prototype (pre-pre-alpha!)](http://portal2.bigcz.org/Explorer) demonstrates an initial approach at ingesting IGSN/SESAR (samples) and MG-RAST (metagenomic data) web services. [For IGSN's, here's an initial (and now old, from 2014-10) IPython notebook demonstrating service requests and parsing.](http://nbviewer.ipython.org/github/BiG-CZ/BiG-CZ-Toolbox/blob/master/ipynotebooks/2014OctMeeting/BiGCZ_Demo_2_IGSN_DynamicMaps.ipynb)
@@ -44,7 +58,7 @@ _(GeoJSON discussion/notes [originally from here](https://github.com/emiliom/map
 I did these requests and processing on IPython notebooks. I can share those eventually, after I've cleaned them up; right now they're very messy.
 
 
-## 4. ulmo, pyoos, and other general data access libraries
+## 5. ulmo, pyoos, and other general data access libraries
 - Check out [ulmo](http://ulmo.readthedocs.org) and [pyoos](https://github.com/ioos/pyoos/). The former is focused mainly on hydrological and met data, and the latter on oceanographic data; but they definitely overlap, and have a couple of duplicated readers.
 - ["SciPy discussions on Python water & met data access (including IOOS SOS) client libraries".](https://groups.google.com/d/msg/ioos_tech/ztzB5qEPpTc/SG2Uowoo_OQJ) A burst of enthusiasm of mine from July 2013. Still relevant, and cool developments have taken place since then.
 - There are now many ulmo and pyoos Jupyter notebooks from the community that can be shared and highlighted. I'll do this later.
