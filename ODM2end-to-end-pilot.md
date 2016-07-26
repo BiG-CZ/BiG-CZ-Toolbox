@@ -16,6 +16,8 @@ And thrown somewhere in there, if possible, something involving the ODM2 vocabul
 
 ## Importing into an ODM2 database
 
+(*Note:* I'm playing with inline diagrams from the [gravizo service](http://www.gravizo.com); more info [here](https://github.com/TLmaK0/gravizo/blob/master/README.md))
+
 ### Scenario 1 - Draft sketch
 ![Scenario 1](http://g.gravizo.com/g?
 @startuml;
@@ -30,4 +32,4 @@ endif;
 @enduml
 )
 
-(*Note:* I'm playing with inline diagrams from the [gravizo service](http://www.gravizo.com); more info [here](https://github.com/TLmaK0/gravizo/blob/master/README.md))
+### Scenario 2 ...
