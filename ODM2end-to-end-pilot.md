@@ -1,10 +1,14 @@
 # ODM2 end-to-end pilot exercise
 
-An "integrated" test of the ODM2 ecosystem:
+We are working on multiple "integrated" tests of the ODM2 ecosystem. These include:
 
-`YODA > ODM2 databases > ODM2 registry/catalog > ODM2 services > ODM2 clients`
+`YODA File(s) > ODM2 database(s) > ODM2 registry/catalog > ODM2 services > ODM2 clients`
 
-Alternatively, a simpler workflow, bare minimum:
+`ODM2 Streaming Data Loader > ODM2 Database(s) > ODM2 registry/catalog > ODM2 clients (or other clients)`
+
+`ODM 1.11 Database > ODM2 Database > ODM2 registry/catalog > ODM2 clients (or other clients)`
+
+Alternatively, we are exploring a simpler workflow for an existing ODM2 database, at bare minimum:
 
 `ODM2 databases > ODM2 services > ODM2 clients`
 
