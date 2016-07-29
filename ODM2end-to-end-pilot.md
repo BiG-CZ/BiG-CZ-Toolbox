@@ -8,6 +8,8 @@ We are working on multiple "integrated" tests of the ODM2 ecosystem. These inclu
 
 `ODM 1.1.1 Database > ODM2 Database > ODM2 registry/catalog > ODM2 clients (or other clients)`
 
+`Simple CSV file (into HydroShare) > ODM2 SQLite File > HydroShare Time Series Resource (ODM2 SQLite) > ODM2 Client (HydroShare Jupyter Notebook)`
+
 Alternatively, we are exploring a simpler workflow for an existing ODM2 database, at bare minimum:
 
 `ODM2 databases > ODM2 services > ODM2 clients`
