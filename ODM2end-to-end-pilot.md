@@ -6,7 +6,7 @@ We are working on multiple "integrated" tests of the ODM2 ecosystem. These inclu
 
 `ODM2 Streaming Data Loader > ODM2 Database(s) > ODM2 registry/catalog > ODM2 clients (or other clients)`
 
-`ODM 1.11 Database > ODM2 Database > ODM2 registry/catalog > ODM2 clients (or other clients)`
+`ODM 1.1.1 Database > ODM2 Database > ODM2 registry/catalog > ODM2 clients (or other clients)`
 
 Alternatively, we are exploring a simpler workflow for an existing ODM2 database, at bare minimum:
 
