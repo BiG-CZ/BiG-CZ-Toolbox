@@ -20,3 +20,12 @@ Will create a Python configuration based on the [Conda package management system
 
 While we haven't launched the BiGCZ anaconda channel yet (we have a [placeholder repo on github](https://github.com/BiG-CZ/conda-recipes-BiG-CZ), for now), the related [ODM2 anaconda channel](https://anaconda.org/odm2) is up and running, with associated [ODM2 conda recipes github repository](https://github.com/ODM2/conda-recipes-ODM2).
 
+### Setting up conda and BiGCZ/ODM2 environments
+
+*(Note: this text borrows heavily from https://github.com/ioos/conda-recipes/wiki/)*
+
+#### Install Miniconda
+
+The use of [Miniconda](http://conda.pydata.org/miniconda.html) is recommended, instead of the more loaded [Anaconda distribution](https://store.continuum.io/cshop/anaconda/). Using this minimal Anaconda we can create our own environments using just the packages we need.
+
+Follow instructions at http://conda.pydata.org/miniconda.html to install Miniconda on any OS. 
