@@ -24,8 +24,48 @@ While we haven't launched the BiGCZ anaconda channel yet (we have a [placeholder
 
 *(Note: this text borrows heavily from https://github.com/ioos/conda-recipes/wiki/)*
 
-#### Install Miniconda
-
 The use of [Miniconda](http://conda.pydata.org/miniconda.html) is recommended, instead of the more loaded [Anaconda distribution](https://store.continuum.io/cshop/anaconda/). Using this minimal Anaconda we can create our own environments using just the packages we need.
 
-Follow instructions at http://conda.pydata.org/miniconda.html to install Miniconda on any OS. 
+Follow instructions at http://conda.pydata.org/miniconda.html to install Miniconda on any OS. Here is some OS-specific information:
+
+#### Install Miniconda on Windows
+Navigate to http://conda.pydata.org/miniconda.html and download the proper installer for you Windows platform (32 or 64 bits).
+We recommend to download the Python 2 version of Miniconda as not all packages are Python 3-compliant yet.  You can still create new Python 3 environments using the Python 2 verson of Miniconda, so you are not limiting yourself. 
+
+When installing you will be asked if you wish to make the Anaconda Python your default Python for Windows.
+If you do not have any other installation that is a good option.  If you want to keep multiple versions of python on your machine (e.g. ESRI-supplied python, or both 32 and 64 bit versions of Anaconda), then don't select the option to modify your path or modify your windows registry settings.
+
+#### Install Miniconda on Linux and OSX
+You may follow manual steps from http://conda.pydata.org/miniconda.html similar to the instructions on Windows (see above). Alternatively, you can execute these commands on a terminal shell (in this case, the bash shell):
+
+```bash
+url=http://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh
+curl $url -o miniconda.sh
+bash miniconda.sh -b
+export PATH=$HOME/miniconda2/bin:$PATH
+conda update --yes --all
+```
+
+### Create and activate an ODM2 environment
+
+Download the [environment.yml](https://raw.githubusercontent.com/ODM2/conda-recipes-ODM2/master/environment.yml) by right clicking with the mouse and choosing
+`save as...`
+
+Open a terminal window where you saved the file and type the commands to create the environment and to activate it.
+```bash
+conda env create environment.yml  # Will create an environment called "ODM2"
+source activate ODM2  # OSX and Linux
+activate ODM2  # Windows
+```
+
+The `environment.yml` file is just a text file with the environment name, what channel we want to add, and the list of the software that will be installed.
+
+(You may have to specify the path for `activate`; e.g. for OSX `source /Users/username/miniconda2/bin/activate IOOS`)
+
+### Exiting the ODM2 environment
+To leave the ODM2 environment and return to the root conda environment, you can type
+```bash
+source deactivate  # OSX and Linux
+deactivate  # Windows
+```
+Also, the environment is active only on the terminal window that initiated it. Exiting the terminal will exit the environment.
