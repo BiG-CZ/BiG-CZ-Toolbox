@@ -18,5 +18,5 @@ Will create a Python configuration based on the [Conda package management system
 
 [This Continuum blog post is a terrific, recent and comprehensive introduction to conda](http://www.continuum.io/blog/conda-data-science) targeted to data scientists. It also has links to a presentation (Youtube and slides) on the same material. An extra nifty aspect of this material is that it "explores how to use conda in a multi-language data science project" with an example combining Python and R libraries (conda now supports R as well).
 
-While we haven't launched the BiGCZ anaconda channel yet (we have a [placeholder repo on github](https://github.com/BiG-CZ/conda-recipes-BiG-CZ), for now), the related [ODM2 anacondal channel](https://anaconda.org/odm2) is up and running, with associated [ODM2 conda recipes github repository](https://github.com/ODM2/conda-recipes-ODM2).
+While we haven't launched the BiGCZ anaconda channel yet (we have a [placeholder repo on github](https://github.com/BiG-CZ/conda-recipes-BiG-CZ), for now), the related [ODM2 anaconda channel](https://anaconda.org/odm2) is up and running, with associated [ODM2 conda recipes github repository](https://github.com/ODM2/conda-recipes-ODM2).
 
