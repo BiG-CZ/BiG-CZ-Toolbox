@@ -57,10 +57,11 @@ conda env create environment.yml  # Will create an environment called "ODM2"
 source activate ODM2  # OSX and Linux
 activate ODM2  # Windows
 ```
+(You may have to specify the path for `activate`; e.g. for OSX `source /Users/username/miniconda2/bin/activate IOOS`)
 
 The `environment.yml` file is just a text file with the environment name, what channel we want to add, and the list of the software that will be installed.
 
-(You may have to specify the path for `activate`; e.g. for OSX `source /Users/username/miniconda2/bin/activate IOOS`)
+Always create an environment for your work. Installing custom conda packages on the miniconda root or default environment is not a good idea!
 
 ### Exiting the ODM2 environment
 To leave the ODM2 environment and return to the root conda environment, you can type
