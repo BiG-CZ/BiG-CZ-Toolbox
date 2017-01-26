@@ -11,12 +11,26 @@ Similar to [pip](https://pypi.python.org/pypi/pip), [**conda**](http://conda.pyd
 
 - [This Continuum blog post is a terrific, recent and comprehensive introduction to conda](http://www.continuum.io/blog/conda-data-science) targeted to data scientists. It also has links to a presentation (Youtube and slides) on the same material. An extra nifty aspect of this material is that it "explores how to use conda in a multi-language data science project" with an example combining Python and R libraries.
 
+**NOTE: We will be using Python 2.7 for this geopandas workshop.**
+
 ### Installing Anaconda
 
 1. To install Anaconda, please click on the link below for your operating system, and follow the instructions on the site:
-  - [Windows](https://www.continuum.io/downloads#windows)
-  - [OSX](https://www.continuum.io/downloads#osx)
-  - [Linux](https://www.continuum.io/downloads#linux)
+  **NOTE: FOR Windows and OSX Graphical installation, make sure to do a custom install and uncheck the box `modify PATH`**
+  
+  ![OSX Custom Install](https://docs.continuum.io/_images/pathoption.png)
+  
+  - [Windows](https://docs.continuum.io/anaconda/install#anaconda-for-windows-install)
+  - [OSX](https://docs.continuum.io/anaconda/install#anaconda-for-os-x-graphical-install)
+  - Linux: see below
+  
+  ```bash
+  url=https://repo.continuum.io/archive/Anaconda2-4.2.0-Linux-x86_64.sh
+  curl $url -o anaconda.sh
+  bash anaconda.sh -b
+  export PATH=$HOME/anaconda2/bin:$PATH
+  conda update --yes --all
+  ```
 2. Once Anaconda installation step is finished run `python` in the command line to test if Anaconda is installed correctly. **Note: For windows, please use Windows powershell as the command line. It should be preinstalled, if not click [here](https://msdn.microsoft.com/en-us/powershell/scripting/setup/installing-windows-powershell).**
 If Anaconda is installed correctly, you should have this prompt, which emphasizes **Anaconda**:
 
@@ -48,28 +62,4 @@ curl $url -o miniconda.sh
 bash miniconda.sh -b
 export PATH=$HOME/miniconda2/bin:$PATH
 conda update --yes --all
-```
-
-### Installing Python
-We will be using both Python 2.7 for this geopandas workshop. 
-
-Using Conda, you can install both Python 2.7 using separate environments 
-(Details will be explained during the Introductory tutorial).
-
-#### Installing Python 2.7
-
-``` bash
-$ conda create -n py27 python=2.7
-```
-
-To use Python 2.7: 
-
-``` bash
-$ source activate py27
-```
-
-To check if you have the correct version:
- 
-``` bash
-$ python --version
 ```
