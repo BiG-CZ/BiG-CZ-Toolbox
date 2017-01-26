@@ -7,8 +7,7 @@ dependencies:
 - geojson 
 - pysal 
 - rasterstats 
-- seaborn 
-- mplleaflet 
+- seaborn  
 - folium 
-- cartopy 
+- mplleaflet
 - jupyter
