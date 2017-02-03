@@ -4,7 +4,7 @@ Similar to [pip](https://pypi.python.org/pypi/pip), [**conda**](http://conda.pyd
 
 For additional help you can consult the [UW GeoHack conda introduction](https://geohackweek.github.io/Introductory/00-conda-tutorial/).
 
-### Anaconda and Miniconda
+### Anaconda or Miniconda
 [Anaconda](https://www.continuum.io/why-anaconda) is a data science platform that comes with a lot of packages. At the core, Anaconda uses the conda package management system. A list of packages included can be found [*here*](https://docs.continuum.io/anaconda/pkg-docs). If you don't have time or disk space -- or the inclination -- to install the entire distribution, try [Miniconda](http://conda.pydata.org/miniconda.html), a bootstrap version of Anaconda, which contains only Python, essential packages, and conda. Other packages have to be installed individually.
 
 **NOTE: We will be using Python 2.7 for this geopandas workshop.**
@@ -53,7 +53,7 @@ If you do not have any other installation that may be a good option.  If you wan
 You may follow manual steps from http://conda.pydata.org/miniconda.html similar to the instructions on Windows (see above). Alternatively, you can execute these commands on a terminal shell (in this case, the bash shell):
 
 ```bash
-url=https://repo.continuum.io/miniconda/Miniconda2-4.2.12-Linux-x86_64.sh
+url=https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh  # On MacOSX, replace Linux with MacOSX
 curl $url -o miniconda.sh
 bash miniconda.sh -b
 export PATH=$HOME/miniconda2/bin:$PATH
@@ -62,4 +62,12 @@ conda update --yes --all
 
 ### Creating the `geopandasenv` conda environment
 
-**(TBD)**
+Download the [environment.yml](https://raw.githubusercontent.com/BiG-CZ/BiG-CZ-Toolbox/master/geopandas/environment.yml) by right clicking with the mouse and choosing
+`save as...`
+
+Open a terminal window where you saved the file and type the commands to create the environment and to activate it.
+```bash
+conda env create environment.yml  # Will create an environment called "geopandasenv"
+source activate geopandasenv  # OSX and Linux
+activate geopandasenv  # Windows
+```
