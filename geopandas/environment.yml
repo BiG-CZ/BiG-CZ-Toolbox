@@ -8,6 +8,5 @@ dependencies:
 - pysal 
 - rasterstats 
 - seaborn  
-- folium 
-- mplleaflet
+- folium
 - jupyter
