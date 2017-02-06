@@ -2,11 +2,11 @@
 
 This [Maptime Meetup workshop](https://www.meetup.com/MaptimeSEA/) is adapted from materials prepared for the [University of Washington GeoHack week event](https://geohackweek.github.io), Nov 14-18, 2016. We'll be using [those materials ("Vector Data Processing using Python Tools")](https://geohackweek.github.io/vector/) directly in some cases, as is.
 
-# Python Preparations
+## Python Preparations
 
 This workshop will rely on **conda** to set up the required Python 2.7 environment and packages. [See here](https://github.com/BiG-CZ/BiG-CZ-Toolbox/blob/master/geopandas/install-conda.md) for details on how to get set up. All demonstration will be done on [Jupyter notebooks](http://jupyter.org). The `geopandasenv` Python conda environment you will create includes Jupyter.
 
-# Lessons
+## Lessons
 
 **ADD LINK FOR DOWNLOADING THE DATA FILES AS A ZIP FILE?**
 
