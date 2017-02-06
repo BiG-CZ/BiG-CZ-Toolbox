@@ -1,6 +1,6 @@
 # Introduction to GeoPandas and related vector geospatial processing with FOSS Python
 
-This [Maptime Meetup workshop](https://www.meetup.com/MaptimeSEA/) is adapted from materials prepared for the [University of Washington GeoHack week event](https://geohackweek.github.io), Nov 14-18, 2016. We'll be using some of [those materials ("Vector Data Processing using Python Tools")](https://geohackweek.github.io/vector/) directly in some cases, as is.
+This [Maptime Meetup workshop](https://www.meetup.com/MaptimeSEA/) is adapted from materials prepared for the [University of Washington GeoHack week event](https://geohackweek.github.io), Nov 14-18, 2016. We'll be using [those materials ("Vector Data Processing using Python Tools")](https://geohackweek.github.io/vector/) directly in some cases, as is.
 
 # Python Preparations
 
