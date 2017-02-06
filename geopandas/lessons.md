@@ -6,13 +6,9 @@ This [Maptime Meetup workshop](https://www.meetup.com/MaptimeSEA/) is adapted fr
 
 This workshop will rely on **conda** to set up the required Python 2.7 environment and packages. [See here](https://github.com/BiG-CZ/BiG-CZ-Toolbox/blob/master/geopandas/install-conda.md) for details on how to get set up. All demonstration will be done on [Jupyter notebooks](http://jupyter.org). The `geopandasenv` Python conda environment you will create includes Jupyter.
 
-## Lessons
+## Materials and Lessons
 
-**ADD LINK FOR DOWNLOADING THE DATA FILES AS A ZIP FILE?**
-
-We'll follow the "lessons" used in the [UW GeoHack tutorial](https://geohackweek.github.io/vector/), jumping back and forth from those materials to the updated Jupyter notebooks.
-
-All materials for downloading so you can run the code on your computer are found [here](https://github.com/BiG-CZ/BiG-CZ-Toolbox/tree/master/geopandas). These include [GIS data files](https://github.com/BiG-CZ/BiG-CZ-Toolbox/tree/master/geopandas/data) and the [two Jupyter notebooks](https://github.com/BiG-CZ/BiG-CZ-Toolbox/tree/master/geopandas/notebooks). The data files can be grabbed more easily as [a zip file (18 MB)](https://github.com/BiG-CZ/BiG-CZ-Toolbox/raw/master/geopandas/data.zip); make sure to reproduce the directory structure of the `notebooks` and `data` directories found on the github repository.
+We'll follow the "lessons" used in the [UW GeoHack tutorial](https://geohackweek.github.io/vector/), jumping back and forth from those materials to the updated Jupyter notebooks. All materials can be [downloaded from here](https://github.com/BiG-CZ/BiG-CZ-Toolbox/tree/master/geopandas) so you can run the code on your computer. These include [GIS data files](https://github.com/BiG-CZ/BiG-CZ-Toolbox/tree/master/geopandas/data) and the [two Jupyter notebooks](https://github.com/BiG-CZ/BiG-CZ-Toolbox/tree/master/geopandas/notebooks). The data files can be grabbed more easily as [a zip file (18 MB)](https://github.com/BiG-CZ/BiG-CZ-Toolbox/raw/master/geopandas/data.zip). Make sure to reproduce the directory structure of the `notebooks` and `data` directories found on the github repository.
 
 1. [**Geospatial Concepts.**](https://geohackweek.github.io/vector/02-geospatial-concepts/) What is 'vector' geospatial data all about?
 2. [**Encodings, Formats and Libraries.**](https://geohackweek.github.io/vector/03-encodings-libraries/) What are the common ways to encode vector geospatial data in Python, and how much is borrowed from broader encoding standards?
