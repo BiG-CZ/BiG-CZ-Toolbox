@@ -3,10 +3,12 @@ channels:
 - conda-forge
 dependencies:
 - python=2.7 
-- geopandas 
+- geopandas
 - geojson 
 - pysal 
+- pyepsg 
 - rasterstats 
+- requests
+- folium 
 - seaborn  
-- folium
 - jupyter
