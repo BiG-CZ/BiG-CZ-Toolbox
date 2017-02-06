@@ -15,7 +15,7 @@ All demonstration will be done on [Jupyter notebooks](http://jupyter.org). The `
 We'll follow the "lessons" used in the [UW GeoHack tutorial](https://geohackweek.github.io/vector/), jumping back and forth from those materials to the updated Jupyter notebooks.
 
 1. [*Geospatial Concepts.](https://geohackweek.github.io/vector/02-geospatial-concepts/) What is 'vector' geospatial data all about?
-2. [*Encodings, Formats and Libraries.](https://geohackweek.github.io/vector/03-encodings-libraries/). What are the common ways to encode vector geospatial data in Python, and how much is borrowed from broader encoding standards?
+2. [*Encodings, Formats and Libraries.](https://geohackweek.github.io/vector/03-encodings-libraries/) What are the common ways to encode vector geospatial data in Python, and how much is borrowed from broader encoding standards?
 3. **GeoPandas Introduction.** What is GeoPandas? What functionality and advantages does GeoPandas offer over other Python geospatial tools? What geospatial storage, analytical and plotting capabilities does it include? What is its relationship to Pandas? https://geohackweek.github.io/vector/04-geopandas-intro/  https://github.com/BiG-CZ/BiG-CZ-Toolbox/blob/master/geopandas/notebooks/geopandas_intro.ipynb
 4. **GeoPandas Advanced Topics.** What additional capabilities does GeoPandas provide, including data access, plotting and analysis? How does it integrate with other common Python tools? How do GeoPandas data objects integrate with analyses of raster data over vector geospatial features? https://geohackweek.github.io/vector/06-geopandas-advanced/  https://github.com/BiG-CZ/BiG-CZ-Toolbox/blob/master/geopandas/notebooks/geopandas_advanced.ipynb
 
