@@ -71,3 +71,5 @@ conda env create environment.yml  # Will create an environment called "geopandas
 source activate geopandasenv  # OSX and Linux
 activate geopandasenv  # Windows
 ```
+
+The `geopandasenv` conda environment includes `geopandas` and its dependencies, which include (for vector-handling packages) `shapely`, `fiona`, `pyproj`, `descartes` and `pysal`, in addition to `pandas` and `numpy`. These will be handled automatically by the conda environment. Additional conda packages available in the environment include `geojson`, `folium` (for interactive maps in Jupyter notebooks), `rasterstats` (for simplified raster-vector analysis), and `psycopg2` for access to vector data stored in PostGIS (though this `Maptime` workshop will not include PostGIS).
