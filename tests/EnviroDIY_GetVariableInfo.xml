@@ -1,0 +1,465 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<variablesResponse xmlns="http://www.cuahsi.org/waterML/1.1/" xmlns:ns0="http://www.cuahsi.org/his/1.1/ws/">
+    <queryInfo>
+        <criteria MethodCalled="GetVariableInfo"/>
+        <note show="Web Service"/>
+    </queryInfo>
+    <variables>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="10">EnviroDIY_Mayfly_Temp</variableCode>
+            <variableName>Temperature</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>degree celsius</unitName>
+                <unitType>Temperature</unitType>
+                <unitAbbreviation>degC</unitAbbreviation>
+                <unitCode>362</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="2">
+                    <unitName>hour minute</unitName>
+                    <unitDescription>hour minute</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hm</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="11">Decagon_CTD-10_EC</variableCode>
+            <variableName>Electrical conductivity</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>Microsiemen per Centimeter</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>uS/cm</unitAbbreviation>
+                <unitCode>373</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="2">
+                    <unitName>hour minute</unitName>
+                    <unitDescription>hour minute</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hm</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="12">Decagon_CTD-10_Temp</variableCode>
+            <variableName>Temperature</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>degree celsius</unitName>
+                <unitType>Temperature</unitType>
+                <unitAbbreviation>degC</unitAbbreviation>
+                <unitCode>362</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="2">
+                    <unitName>hour minute</unitName>
+                    <unitDescription>hour minute</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hm</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="13">Decagon_CTD-10_Depth</variableCode>
+            <variableName>Water depth</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>Millimeter</unitName>
+                <unitType>Length</unitType>
+                <unitAbbreviation>mm</unitAbbreviation>
+                <unitCode>367</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="2">
+                    <unitName>hour minute</unitName>
+                    <unitDescription>hour minute</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hm</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="14">Campbell_OBS-3+_Turb</variableCode>
+            <variableName>Turbidity</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>Nephelometric Turbidity Unit</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>NTU</unitAbbreviation>
+                <unitCode>364</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="2">
+                    <unitName>hour minute</unitName>
+                    <unitDescription>hour minute</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hm</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="15">Decagon_5TM_VWC</variableCode>
+            <variableName>Volumetric water content</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Soil</sampleMedium>
+            <unit>
+                <unitName>Percent By Volume</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>% by vol</unitAbbreviation>
+                <unitCode>368</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="2">
+                    <unitName>hour minute</unitName>
+                    <unitDescription>hour minute</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hm</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="16">Decagon_5TM_Temp</variableCode>
+            <variableName>Temperature</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Soil</sampleMedium>
+            <unit>
+                <unitName>degree celsius</unitName>
+                <unitType>Temperature</unitType>
+                <unitAbbreviation>degC</unitAbbreviation>
+                <unitCode>362</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="2">
+                    <unitName>hour minute</unitName>
+                    <unitDescription>hour minute</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hm</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="21">EnviroDIY_Mayfly_Volt</variableCode>
+            <variableName>Battery voltage</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>Volt</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>V</unitAbbreviation>
+                <unitCode>369</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="2">
+                    <unitName>hour minute</unitName>
+                    <unitDescription>hour minute</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hm</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="22">EnviroDIY_Mayfly_FreeSRAM</variableCode>
+            <variableName>Free SRAM</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>Bit</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>bit</unitAbbreviation>
+                <unitCode>370</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="2">
+                    <unitName>hour minute</unitName>
+                    <unitDescription>hour minute</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hm</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="23">Decagon_ES-2_EC</variableCode>
+            <variableName>Electrical conductivity</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>Microsiemen per Centimeter</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>uS/cm</unitAbbreviation>
+                <unitCode>373</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="2">
+                    <unitName>hour minute</unitName>
+                    <unitDescription>hour minute</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hm</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="24">Decagon_ES-2_Temp</variableCode>
+            <variableName>Temperature</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>degree celsius</unitName>
+                <unitType>Temperature</unitType>
+                <unitAbbreviation>degC</unitAbbreviation>
+                <unitCode>362</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="2">
+                    <unitName>hour minute</unitName>
+                    <unitDescription>hour minute</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hm</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="37">MaxBotix_MB7386_Distance</variableCode>
+            <variableName>Distance</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>Millimeter</unitName>
+                <unitType>Length</unitType>
+                <unitAbbreviation>mm</unitAbbreviation>
+                <unitCode>367</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="2">
+                    <unitName>hour minute</unitName>
+                    <unitDescription>hour minute</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hm</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="39">Adafruit_DS18B20_Temp</variableCode>
+            <variableName>Temperature</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>degree celsius</unitName>
+                <unitType>Temperature</unitType>
+                <unitAbbreviation>degC</unitAbbreviation>
+                <unitCode>362</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="2">
+                    <unitName>hour minute</unitName>
+                    <unitDescription>hour minute</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hm</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="40">Adafruit_AM2315_humidity</variableCode>
+            <variableName>Relative humidity</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>Percent By Volume</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>% by vol</unitAbbreviation>
+                <unitCode>368</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="2">
+                    <unitName>hour minute</unitName>
+                    <unitDescription>hour minute</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hm</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="41">Adafruit_AM2315_Temp</variableCode>
+            <variableName>Temperature</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>degree celsius</unitName>
+                <unitType>Temperature</unitType>
+                <unitAbbreviation>degC</unitAbbreviation>
+                <unitCode>362</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="2">
+                    <unitName>hour minute</unitName>
+                    <unitDescription>hour minute</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hm</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="46">Apogee_SQ-212_PAR</variableCode>
+            <variableName>Radiation, incoming PAR</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>Micromole per Square Meter per Second</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>µmol/m^2 s</unitAbbreviation>
+                <unitCode>371</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="2">
+                    <unitName>hour minute</unitName>
+                    <unitDescription>hour minute</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hm</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="47">Seeed_BME280_humidity</variableCode>
+            <variableName>Relative humidity</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>Percent By Volume</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>% by vol</unitAbbreviation>
+                <unitCode>368</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="2">
+                    <unitName>hour minute</unitName>
+                    <unitDescription>hour minute</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hm</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="48">Seeed_BME280_Temp</variableCode>
+            <variableName>Temperature</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>degree celsius</unitName>
+                <unitType>Temperature</unitType>
+                <unitAbbreviation>degC</unitAbbreviation>
+                <unitCode>362</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="2">
+                    <unitName>hour minute</unitName>
+                    <unitDescription>hour minute</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hm</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="50">Decagon_5TM_Ea</variableCode>
+            <variableName>Permittivity</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Soil</sampleMedium>
+            <unit>
+                <unitName>Farad per Meter</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>F/m</unitAbbreviation>
+                <unitCode>375</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="2">
+                    <unitName>hour minute</unitName>
+                    <unitDescription>hour minute</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hm</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+    </variables>
+</variablesResponse>

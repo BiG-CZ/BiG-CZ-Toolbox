@@ -1,0 +1,1257 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<variablesResponse xmlns="http://www.cuahsi.org/waterML/1.1/" xmlns:ns0="http://www.cuahsi.org/his/1.1/ws/">
+    <queryInfo>
+        <criteria MethodCalled="GetVariableInfo"/>
+        <note show="Web Service"/>
+    </queryInfo>
+    <variables>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="3">USU3</variableCode>
+            <variableName>Battery voltage</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>volts</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>V</unitAbbreviation>
+                <unitCode>168</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="102">
+                    <unitName>minute</unitName>
+                    <unitDescription>minute</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>min</unitAbbreviation>
+                </unit>
+                <timeSupport>30.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="4">USU4</variableCode>
+            <variableName>Turbidity</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>nephelometric turbidity units</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>NTU</unitAbbreviation>
+                <unitCode>221</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="100">
+                    <unitName>second</unitName>
+                    <unitDescription>second</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>s</unitAbbreviation>
+                </unit>
+                <timeSupport>5.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="5">USU5</variableCode>
+            <variableName>Turbidity</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>nephelometric turbidity units</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>NTU</unitAbbreviation>
+                <unitCode>221</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="100">
+                    <unitName>second</unitName>
+                    <unitDescription>second</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>s</unitAbbreviation>
+                </unit>
+                <timeSupport>5.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="6">USU6</variableCode>
+            <variableName>Turbidity</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>nephelometric turbidity units</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>NTU</unitAbbreviation>
+                <unitCode>221</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="100">
+                    <unitName>second</unitName>
+                    <unitDescription>second</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>s</unitAbbreviation>
+                </unit>
+                <timeSupport>5.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="7">USU7</variableCode>
+            <variableName>Turbidity</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>nephelometric turbidity units</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>NTU</unitAbbreviation>
+                <unitCode>221</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="100">
+                    <unitName>second</unitName>
+                    <unitDescription>second</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>s</unitAbbreviation>
+                </unit>
+                <timeSupport>5.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="8">USU8</variableCode>
+            <variableName>Turbidity</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>nephelometric turbidity units</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>NTU</unitAbbreviation>
+                <unitCode>221</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="100">
+                    <unitName>second</unitName>
+                    <unitDescription>second</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>s</unitAbbreviation>
+                </unit>
+                <timeSupport>5.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="9">USU9</variableCode>
+            <variableName>Turbidity</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>nephelometric turbidity units</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>NTU</unitAbbreviation>
+                <unitCode>221</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="100">
+                    <unitName>second</unitName>
+                    <unitDescription>second</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>s</unitAbbreviation>
+                </unit>
+                <timeSupport>5.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="10">USU10</variableCode>
+            <variableName>Temperature</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>degree celsius</unitName>
+                <unitType>Temperature</unitType>
+                <unitAbbreviation>degC</unitAbbreviation>
+                <unitCode>96</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="100">
+                    <unitName>second</unitName>
+                    <unitDescription>second</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>s</unitAbbreviation>
+                </unit>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="13">USU13</variableCode>
+            <variableName>Gage height</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>international foot</unitName>
+                <unitType>Length</unitType>
+                <unitAbbreviation>ft</unitAbbreviation>
+                <unitCode>48</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="102">
+                    <unitName>minute</unitName>
+                    <unitDescription>minute</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>min</unitAbbreviation>
+                </unit>
+                <timeSupport>30.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="14">USU14</variableCode>
+            <variableName>Temperature</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>degree celsius</unitName>
+                <unitType>Temperature</unitType>
+                <unitAbbreviation>degC</unitAbbreviation>
+                <unitCode>96</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="103">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hr</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="15">USU15</variableCode>
+            <variableName>Relative humidity</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>percent</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>%</unitAbbreviation>
+                <unitCode>1</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="103">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hr</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="16">USU16</variableCode>
+            <variableName>Precipitation</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>millimeter</unitName>
+                <unitType>Length</unitType>
+                <unitAbbreviation>mm</unitAbbreviation>
+                <unitCode>54</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="103">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hr</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="17">USU17</variableCode>
+            <variableName>Battery voltage</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>volts</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>V</unitAbbreviation>
+                <unitCode>168</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="103">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hr</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="18">USU18</variableCode>
+            <variableName>Wind speed</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>meters per second</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>m/s</unitAbbreviation>
+                <unitCode>119</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="103">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hr</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="19">USU19</variableCode>
+            <variableName>Wind direction</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>degree</unitName>
+                <unitType>Angle</unitType>
+                <unitAbbreviation>deg</unitAbbreviation>
+                <unitCode>2</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="103">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hr</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="20">USU20</variableCode>
+            <variableName>Wind direction</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>degree</unitName>
+                <unitType>Angle</unitType>
+                <unitAbbreviation>deg</unitAbbreviation>
+                <unitCode>2</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="103">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hr</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="21">USU21</variableCode>
+            <variableName>Barometric pressure</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>millimeter of mercury</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>mm Hg</unitAbbreviation>
+                <unitCode>86</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="100">
+                    <unitName>second</unitName>
+                    <unitDescription>second</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>s</unitAbbreviation>
+                </unit>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="22">USU22</variableCode>
+            <variableName>Radiation, incoming shortwave</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>watts per square meter</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>W/m^2</unitAbbreviation>
+                <unitCode>33</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="103">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hr</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="23">USU23</variableCode>
+            <variableName>Battery voltage</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>volts</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>V</unitAbbreviation>
+                <unitCode>168</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="104">
+                    <unitName>day</unitName>
+                    <unitDescription>day</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>d</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="24">USU24</variableCode>
+            <variableName>Wind speed</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>meters per second</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>m/s</unitAbbreviation>
+                <unitCode>119</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="104">
+                    <unitName>day</unitName>
+                    <unitDescription>day</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>d</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="25">USU25</variableCode>
+            <variableName>Temperature</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>degree celsius</unitName>
+                <unitType>Temperature</unitType>
+                <unitAbbreviation>degC</unitAbbreviation>
+                <unitCode>96</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="104">
+                    <unitName>day</unitName>
+                    <unitDescription>day</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>d</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="26">USU26</variableCode>
+            <variableName>Temperature</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>degree celsius</unitName>
+                <unitType>Temperature</unitType>
+                <unitAbbreviation>degC</unitAbbreviation>
+                <unitCode>96</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="104">
+                    <unitName>day</unitName>
+                    <unitDescription>day</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>d</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="27">USU27</variableCode>
+            <variableName>Temperature</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>degree celsius</unitName>
+                <unitType>Temperature</unitType>
+                <unitAbbreviation>degC</unitAbbreviation>
+                <unitCode>96</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="104">
+                    <unitName>day</unitName>
+                    <unitDescription>day</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>d</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="28">USU28</variableCode>
+            <variableName>Relative humidity</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>percent</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>%</unitAbbreviation>
+                <unitCode>1</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="104">
+                    <unitName>day</unitName>
+                    <unitDescription>day</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>d</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="29">USU29</variableCode>
+            <variableName>Barometric pressure</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>millimeter of mercury</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>mm Hg</unitAbbreviation>
+                <unitCode>86</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="104">
+                    <unitName>day</unitName>
+                    <unitDescription>day</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>d</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="30">USU30</variableCode>
+            <variableName>Precipitation</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>millimeter</unitName>
+                <unitType>Length</unitType>
+                <unitAbbreviation>mm</unitAbbreviation>
+                <unitCode>54</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="104">
+                    <unitName>day</unitName>
+                    <unitDescription>day</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>d</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="31">USU31</variableCode>
+            <variableName>Radiation, incoming shortwave</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>megajoules per square meter</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>MJ/m^2</unitAbbreviation>
+                <unitCode>144</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="104">
+                    <unitName>day</unitName>
+                    <unitDescription>day</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>d</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="32">USU32</variableCode>
+            <variableName>Oxygen, dissolved</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>milligrams per liter</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>mg/L</unitAbbreviation>
+                <unitCode>199</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="102">
+                    <unitName>minute</unitName>
+                    <unitDescription>minute</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>min</unitAbbreviation>
+                </unit>
+                <timeSupport>30.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="33">USU33</variableCode>
+            <variableName>Oxygen, dissolved percent of saturation</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>percent</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>%</unitAbbreviation>
+                <unitCode>1</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="102">
+                    <unitName>minute</unitName>
+                    <unitDescription>minute</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>min</unitAbbreviation>
+                </unit>
+                <timeSupport>30.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="34">USU34</variableCode>
+            <variableName>Specific conductance</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>microsiemens per centimeter</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>uS/cm</unitAbbreviation>
+                <unitCode>192</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="102">
+                    <unitName>minute</unitName>
+                    <unitDescription>minute</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>min</unitAbbreviation>
+                </unit>
+                <timeSupport>30.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="35">USU35</variableCode>
+            <variableName>pH</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>dimensionless</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>-</unitAbbreviation>
+                <unitCode>137</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="102">
+                    <unitName>minute</unitName>
+                    <unitDescription>minute</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>min</unitAbbreviation>
+                </unit>
+                <timeSupport>30.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="36">USU36</variableCode>
+            <variableName>Temperature</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>degree celsius</unitName>
+                <unitType>Temperature</unitType>
+                <unitAbbreviation>degC</unitAbbreviation>
+                <unitCode>96</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="102">
+                    <unitName>minute</unitName>
+                    <unitDescription>minute</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>min</unitAbbreviation>
+                </unit>
+                <timeSupport>30.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="37">USU37</variableCode>
+            <variableName>Turbidity</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>nephelometric turbidity units</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>NTU</unitAbbreviation>
+                <unitCode>221</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="102">
+                    <unitName>minute</unitName>
+                    <unitDescription>minute</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>min</unitAbbreviation>
+                </unit>
+                <timeSupport>30.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="44">USU44</variableCode>
+            <variableName>Discharge</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>cubic feet per second</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>cfs</unitAbbreviation>
+                <unitCode>35</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="102">
+                    <unitName>minute</unitName>
+                    <unitDescription>minute</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>min</unitAbbreviation>
+                </unit>
+                <timeSupport>30.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="47">USU47</variableCode>
+            <variableName>Solids, total suspended</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>milligrams per liter</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>mg/L</unitAbbreviation>
+                <unitCode>199</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="100">
+                    <unitName>second</unitName>
+                    <unitDescription>second</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>s</unitAbbreviation>
+                </unit>
+                <timeSupport>5.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="48">USU48</variableCode>
+            <variableName>Phosphorus, total</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>milligrams per liter</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>mg/L</unitAbbreviation>
+                <unitCode>199</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="100">
+                    <unitName>second</unitName>
+                    <unitDescription>second</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>s</unitAbbreviation>
+                </unit>
+                <timeSupport>5.</timeSupport>
+            </timeScale>
+            <speciation>P</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="49">USU49</variableCode>
+            <variableName>Distance</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>meter</unitName>
+                <unitType>Length</unitType>
+                <unitAbbreviation>m</unitAbbreviation>
+                <unitCode>52</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="103">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hr</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="50">USU50</variableCode>
+            <variableName>Snow Depth</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Snow</sampleMedium>
+            <unit>
+                <unitName>meter</unitName>
+                <unitType>Length</unitType>
+                <unitAbbreviation>m</unitAbbreviation>
+                <unitCode>52</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="103">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hr</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="51">USU51</variableCode>
+            <variableName>Distance</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>meter</unitName>
+                <unitType>Length</unitType>
+                <unitAbbreviation>m</unitAbbreviation>
+                <unitCode>52</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="104">
+                    <unitName>day</unitName>
+                    <unitDescription>day</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>d</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="52">USU52</variableCode>
+            <variableName>Distance</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>meter</unitName>
+                <unitType>Length</unitType>
+                <unitAbbreviation>m</unitAbbreviation>
+                <unitCode>52</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="104">
+                    <unitName>day</unitName>
+                    <unitDescription>day</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>d</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="53">USU53</variableCode>
+            <variableName>Distance</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>meter</unitName>
+                <unitType>Length</unitType>
+                <unitAbbreviation>m</unitAbbreviation>
+                <unitCode>52</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="104">
+                    <unitName>day</unitName>
+                    <unitDescription>day</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>d</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="54">USU54</variableCode>
+            <variableName>Snow Depth</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Snow</sampleMedium>
+            <unit>
+                <unitName>meter</unitName>
+                <unitType>Length</unitType>
+                <unitAbbreviation>m</unitAbbreviation>
+                <unitCode>52</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="104">
+                    <unitName>day</unitName>
+                    <unitDescription>day</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>d</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="55">USU55</variableCode>
+            <variableName>Snow Depth</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Snow</sampleMedium>
+            <unit>
+                <unitName>meter</unitName>
+                <unitType>Length</unitType>
+                <unitAbbreviation>m</unitAbbreviation>
+                <unitCode>52</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="104">
+                    <unitName>day</unitName>
+                    <unitDescription>day</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>d</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="56">USU56</variableCode>
+            <variableName>Snow Depth</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Snow</sampleMedium>
+            <unit>
+                <unitName>meter</unitName>
+                <unitType>Length</unitType>
+                <unitAbbreviation>m</unitAbbreviation>
+                <unitCode>52</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="104">
+                    <unitName>day</unitName>
+                    <unitDescription>day</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>d</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="57">USU57</variableCode>
+            <variableName>Volumetric water content</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Soil</sampleMedium>
+            <unit>
+                <unitName>dimensionless</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>-</unitAbbreviation>
+                <unitCode>137</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="103">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hr</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="58">USU58</variableCode>
+            <variableName>Electrical conductivity</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Soil</sampleMedium>
+            <unit>
+                <unitName>siemens per meter</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>S/m</unitAbbreviation>
+                <unitCode>268</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="103">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hr</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="59">USU59</variableCode>
+            <variableName>Temperature</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Soil</sampleMedium>
+            <unit>
+                <unitName>degree celsius</unitName>
+                <unitType>Temperature</unitType>
+                <unitAbbreviation>degC</unitAbbreviation>
+                <unitCode>96</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="103">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hr</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="60">USU60</variableCode>
+            <variableName>Temperature</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Soil</sampleMedium>
+            <unit>
+                <unitName>degree fahrenheit</unitName>
+                <unitType>Temperature</unitType>
+                <unitAbbreviation>degF</unitAbbreviation>
+                <unitCode>97</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="103">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hr</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="61">USU61</variableCode>
+            <variableName>Real dielectric constant</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Soil</sampleMedium>
+            <unit>
+                <unitName>dimensionless</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>-</unitAbbreviation>
+                <unitCode>137</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="103">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hr</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="mysqlodm2timeseries" variableID="62">USU62</variableCode>
+            <variableName>Imaginary dielectric constant</variableName>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Soil</sampleMedium>
+            <unit>
+                <unitName>dimensionless</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>-</unitAbbreviation>
+                <unitCode>137</unitCode>
+            </unit>
+            <noDataValue>-9999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="103">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hr</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+    </variables>
+</variablesResponse>

@@ -1,0 +1,1946 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<variablesResponse xmlns="http://www.cuahsi.org/waterML/1.1/" xmlns:ns0="http://www.cuahsi.org/his/1.1/ws/">
+    <queryInfo>
+        <criteria MethodCalled="GetVariableInfo"/>
+        <note show="Web Service"/>
+    </queryInfo>
+    <variables>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="2">Conductivity</variableCode>
+            <variableName>Electrical conductivity</variableName>
+            <variableDescription/>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>Millisiemens per centimeter</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>mS/cm</unitAbbreviation>
+                <unitCode>50</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="5">
+                    <unitName>Minutes</unitName>
+                    <unitDescription>Minutes</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>Minutes</unitAbbreviation>
+                </unit>
+                <timeSupport>15.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="3">Water Temperature</variableCode>
+            <variableName>Temperature</variableName>
+            <variableDescription/>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>Degrees Celsius</unitName>
+                <unitType>Temperature</unitType>
+                <unitAbbreviation>C</unitAbbreviation>
+                <unitCode>3</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="5">
+                    <unitName>Minutes</unitName>
+                    <unitDescription>Minutes</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>Minutes</unitAbbreviation>
+                </unit>
+                <timeSupport>15.</timeSupport>
+            </timeScale>
+            <speciation>Not Applicable</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="4">DO Concentration</variableCode>
+            <variableName>Oxygen, dissolved</variableName>
+            <variableDescription/>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>milligrams per liter</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>mg/L</unitAbbreviation>
+                <unitCode>2</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="5">
+                    <unitName>Minutes</unitName>
+                    <unitDescription>Minutes</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>Minutes</unitAbbreviation>
+                </unit>
+                <timeSupport>15.</timeSupport>
+            </timeScale>
+            <speciation>O2</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="5">pH</variableCode>
+            <variableName>pH</variableName>
+            <variableDescription/>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>pH</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>pH</unitAbbreviation>
+                <unitCode>7</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="5">
+                    <unitName>Minutes</unitName>
+                    <unitDescription>Minutes</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>Minutes</unitAbbreviation>
+                </unit>
+                <timeSupport>30.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="6">ORP</variableCode>
+            <variableName>Reduction potential</variableName>
+            <variableDescription/>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>millivolts; Potential Difference mV</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>mV</unitAbbreviation>
+                <unitCode>9</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="5">
+                    <unitName>Minutes</unitName>
+                    <unitDescription>Minutes</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>Minutes</unitAbbreviation>
+                </unit>
+                <timeSupport>30.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="7">SpCond</variableCode>
+            <variableName>Specific conductance</variableName>
+            <variableDescription/>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>Microsiemens per centimeter</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>uS/cm</unitAbbreviation>
+                <unitCode>1</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="5">
+                    <unitName>Minutes</unitName>
+                    <unitDescription>Minutes</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>Minutes</unitAbbreviation>
+                </unit>
+                <timeSupport>15.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="8">Depth10</variableCode>
+            <variableName>Groundwater Depth</variableName>
+            <variableDescription/>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>meters</unitName>
+                <unitType>Length</unitType>
+                <unitAbbreviation>M</unitAbbreviation>
+                <unitCode>8</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="5">
+                    <unitName>Minutes</unitName>
+                    <unitDescription>Minutes</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>Minutes</unitAbbreviation>
+                </unit>
+                <timeSupport>15.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="9">Depth_Vy</variableCode>
+            <variableName>Groundwater Depth</variableName>
+            <variableDescription>Voltage corresponding to depth reading. </variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>millivolts; Potential Difference mV</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>mV</unitAbbreviation>
+                <unitCode>9</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="5">
+                    <unitName>Minutes</unitName>
+                    <unitDescription>Minutes</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>Minutes</unitAbbreviation>
+                </unit>
+                <timeSupport>30.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="10">LDOPercent</variableCode>
+            <variableName>Oxygen, dissolved percent of saturation</variableName>
+            <variableDescription/>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>Concentration Percent Saturation</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>%</unitAbbreviation>
+                <unitCode>10</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="5">
+                    <unitName>Minutes</unitName>
+                    <unitDescription>Minutes</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>Minutes</unitAbbreviation>
+                </unit>
+                <timeSupport>30.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="11">LDO</variableCode>
+            <variableName>Oxygen, dissolved</variableName>
+            <variableDescription/>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>milligrams per liter</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>mg/L</unitAbbreviation>
+                <unitCode>2</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="5">
+                    <unitName>Minutes</unitName>
+                    <unitDescription>Minutes</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>Minutes</unitAbbreviation>
+                </unit>
+                <timeSupport>30.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="12">BP</variableCode>
+            <variableName>Barometric pressure</variableName>
+            <variableDescription/>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>Millimeters of Mercury</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>mmHg</unitAbbreviation>
+                <unitCode>11</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="5">
+                    <unitName>Minutes</unitName>
+                    <unitDescription>Minutes</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>Minutes</unitAbbreviation>
+                </unit>
+                <timeSupport>30.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="13">IBatt</variableCode>
+            <variableName>Battery voltage</variableName>
+            <variableDescription>Internal Battery Voltage</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>Volts</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>Volts</unitAbbreviation>
+                <unitCode>12</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="5">
+                    <unitName>Minutes</unitName>
+                    <unitDescription>Minutes</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>Minutes</unitAbbreviation>
+                </unit>
+                <timeSupport>30.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="14">EBatt</variableCode>
+            <variableName>Battery voltage</variableName>
+            <variableDescription>Extended Battery</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>Volts</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>Volts</unitAbbreviation>
+                <unitCode>12</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="5">
+                    <unitName>Minutes</unitName>
+                    <unitDescription>Minutes</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>Minutes</unitAbbreviation>
+                </unit>
+                <timeSupport>30.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="15">Abs Pres</variableCode>
+            <variableName>Pressure, absolute</variableName>
+            <variableDescription>Water Pressure gauge</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>kilopascal</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>kPa</unitAbbreviation>
+                <unitCode>35</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="5">
+                    <unitName>Minutes</unitName>
+                    <unitDescription>Minutes</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>Minutes</unitAbbreviation>
+                </unit>
+                <timeSupport>5.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="17">Nitrate (NO3)</variableCode>
+            <variableName>Nitrogen, dissolved nitrate (NO3)</variableName>
+            <variableDescription>Nitrate (NO3)</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>milligrams per liter</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>mg/L</unitAbbreviation>
+                <unitCode>2</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="5">
+                    <unitName>Minutes</unitName>
+                    <unitDescription>Minutes</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>Minutes</unitAbbreviation>
+                </unit>
+                <timeSupport>15.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="18">Ammonium, NH4</variableCode>
+            <variableName>Nitrogen, dissolved (free+ionized) Ammonia (NH3) + (NH4)</variableName>
+            <variableDescription>Ammonium, NH4</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>milligrams per liter</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>mg/L</unitAbbreviation>
+                <unitCode>2</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="5">
+                    <unitName>Minutes</unitName>
+                    <unitDescription>Minutes</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>Minutes</unitAbbreviation>
+                </unit>
+                <timeSupport>30.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="19">Total aboveground litterfall</variableCode>
+            <variableName>Biomass</variableName>
+            <variableDescription>Total aboveground litterfall; Above-ground litterfall represents annual means; based on monthly litter collection from five replicate baskets per site; Bisley (lower montane forest) data represent bi-weekly litter collections from 60 baskets for 18 months in 1988–89, spanning ridge, slope, and valley positions;</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Soil</sampleMedium>
+            <unit>
+                <unitName>g per m^2 year</unitName>
+                <unitType>Time</unitType>
+                <unitAbbreviation>g per m^2 year</unitAbbreviation>
+                <unitCode>15</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="16">
+                    <unitName>Year</unitName>
+                    <unitDescription>Year</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>yr</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="41">DO Percent Saturation</variableCode>
+            <variableName>Oxygen, dissolved percent of saturation</variableName>
+            <variableDescription>Used Weiss Equations to calculate.
+http://water.usgs.gov/admin/memo/QW/qw11.03.pdf</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>Concentration Percent Saturation</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>%</unitAbbreviation>
+                <unitCode>10</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="5">
+                    <unitName>Minutes</unitName>
+                    <unitDescription>Minutes</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>Minutes</unitAbbreviation>
+                </unit>
+                <timeSupport>15.</timeSupport>
+            </timeScale>
+            <speciation>O2</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="42">Nitrate (NO3) - Regression Flux</variableCode>
+            <variableName>Nitrogen, dissolved nitrate (NO3)</variableName>
+            <variableDescription>Nitrate flux </variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>kilogram per hectare per year</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>Kg per ha yr</unitAbbreviation>
+                <unitCode>22</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="16">
+                    <unitName>Year</unitName>
+                    <unitDescription>Year</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>yr</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="43">Nitrate (NO3) - Composite Method Flux</variableCode>
+            <variableName>Nitrogen, dissolved nitrate (NO3)</variableName>
+            <variableDescription>Nitrate (NO3) - Flux computed by Composite Method </variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>kilogram per hectare per year</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>Kg per ha yr</unitAbbreviation>
+                <unitCode>22</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="16">
+                    <unitName>Year</unitName>
+                    <unitDescription>Year</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>yr</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="44">Chloride (Cl) - Composite Method Flux</variableCode>
+            <variableName>Chloride, dissolved</variableName>
+            <variableDescription>Chloride (Cl) - Composite Method Flux</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>kilogram per hectare per year</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>Kg per ha yr</unitAbbreviation>
+                <unitCode>22</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="16">
+                    <unitName>Year</unitName>
+                    <unitDescription>Year</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>yr</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+            <speciation>Cl</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="45">Chloride (Cl) - Regression Flux</variableCode>
+            <variableName>Chloride</variableName>
+            <variableDescription>Chloride (Cl) - Regression Flux McDowell &amp; Asbury</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>kilogram per hectare per year</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>Kg per ha yr</unitAbbreviation>
+                <unitCode>22</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="16">
+                    <unitName>Year</unitName>
+                    <unitDescription>Year</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>yr</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+            <speciation>Cl</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="46">Volumetric Water Content</variableCode>
+            <variableName>Volumetric water content</variableName>
+            <variableDescription>Volumetric Water Content</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Soil</sampleMedium>
+            <unit>
+                <unitName>fraction</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>fraction</unitAbbreviation>
+                <unitCode>47</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="25">
+                    <unitName>day</unitName>
+                    <unitDescription>day</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>day</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+            <speciation>H2O</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="47">Soil O2</variableCode>
+            <variableName>Oxygen</variableName>
+            <variableDescription>Soil O2</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Soil</sampleMedium>
+            <unit>
+                <unitName>fraction</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>fraction</unitAbbreviation>
+                <unitCode>47</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="25">
+                    <unitName>day</unitName>
+                    <unitDescription>day</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>day</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+            <speciation>O2</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="78">CDOM</variableCode>
+            <variableName>Colored dissolved organic matter</variableName>
+            <variableDescription>Organic matter in water that absorbs strongly in the ultraviolet (UV) spectrum. </variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>Relative fluorescence units</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>RFU</unitAbbreviation>
+                <unitCode>38</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="5">
+                    <unitName>Minutes</unitName>
+                    <unitDescription>Minutes</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>Minutes</unitAbbreviation>
+                </unit>
+                <timeSupport>15.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="79">Turbidity</variableCode>
+            <variableName>Turbidity</variableName>
+            <variableDescription>Turbidity is an indication of the amount of light that will pass through a column of water. Clear waters have low turbidity; waters with high suspended solids have high turbidities. </variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>Nephelometric Turbidity Units</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>NTU</unitAbbreviation>
+                <unitCode>43</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="5">
+                    <unitName>Minutes</unitName>
+                    <unitDescription>Minutes</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>Minutes</unitAbbreviation>
+                </unit>
+                <timeSupport>15.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="80">HDO</variableCode>
+            <variableName>Oxygen, dissolved</variableName>
+            <variableDescription>Dissolved Oxygen</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>Percent</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>%</unitAbbreviation>
+                <unitCode>21</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="5">
+                    <unitName>Minutes</unitName>
+                    <unitDescription>Minutes</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>Minutes</unitAbbreviation>
+                </unit>
+                <timeSupport>15.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="81">CO2- millivolts</variableCode>
+            <variableName>Voltage</variableName>
+            <variableDescription>millivolts from Vailsala CO2 </variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>millivolts; Potential Difference mV</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>mV</unitAbbreviation>
+                <unitCode>9</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="5">
+                    <unitName>Minutes</unitName>
+                    <unitDescription>Minutes</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>Minutes</unitAbbreviation>
+                </unit>
+                <timeSupport>15.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="82">Absorbance-254</variableCode>
+            <variableName>Absorbance</variableName>
+            <variableDescription>Light absorbed from a 254 nm ultra violet source. </variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>Absorbance units</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>Absorbance units</unitAbbreviation>
+                <unitCode>41</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="5">
+                    <unitName>Minutes</unitName>
+                    <unitDescription>Minutes</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>Minutes</unitAbbreviation>
+                </unit>
+                <timeSupport>15.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="83">Absorbance-350</variableCode>
+            <variableName>Absorbance</variableName>
+            <variableDescription>Light Absorbed from a 350 nm light source.</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>Absorbance units</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>Absorbance units</unitAbbreviation>
+                <unitCode>41</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="5">
+                    <unitName>Minutes</unitName>
+                    <unitDescription>Minutes</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>Minutes</unitAbbreviation>
+                </unit>
+                <timeSupport>15.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="84">Light Average</variableCode>
+            <variableName>Luminous Flux</variableName>
+            <variableDescription>Light Average</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>Counts</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>Counts</unitAbbreviation>
+                <unitCode>40</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="5">
+                    <unitName>Minutes</unitName>
+                    <unitDescription>Minutes</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>Minutes</unitAbbreviation>
+                </unit>
+                <timeSupport>15.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="85">Record</variableCode>
+            <variableName>Recorder code</variableName>
+            <variableDescription>Record number from CR1000</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>Instrument Record Number</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>Record</unitAbbreviation>
+                <unitCode>42</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="5">
+                    <unitName>Minutes</unitName>
+                    <unitDescription>Minutes</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>Minutes</unitAbbreviation>
+                </unit>
+                <timeSupport>15.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="86">Temperature - instrument</variableCode>
+            <variableName>Temperature, datalogger</variableName>
+            <variableDescription>Temperature in a datalogger</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>Degrees Celsius</unitName>
+                <unitType>Temperature</unitType>
+                <unitAbbreviation>C</unitAbbreviation>
+                <unitCode>3</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="5">
+                    <unitName>Minutes</unitName>
+                    <unitDescription>Minutes</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>Minutes</unitAbbreviation>
+                </unit>
+                <timeSupport>15.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="87">Bromide</variableCode>
+            <variableName>Bromide, dissolved</variableName>
+            <variableDescription>Bromide</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>milligrams per liter</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>mg/L</unitAbbreviation>
+                <unitCode>2</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="5">
+                    <unitName>Minutes</unitName>
+                    <unitDescription>Minutes</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>Minutes</unitAbbreviation>
+                </unit>
+                <timeSupport>15.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="88">Water Depth</variableCode>
+            <variableName>Groundwater Depth</variableName>
+            <variableDescription>Ground water depth.</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>meters</unitName>
+                <unitType>Length</unitType>
+                <unitAbbreviation>M</unitAbbreviation>
+                <unitCode>8</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="5">
+                    <unitName>Minutes</unitName>
+                    <unitDescription>Minutes</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>Minutes</unitAbbreviation>
+                </unit>
+                <timeSupport>5.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="89">Temp C</variableCode>
+            <variableName>Temperature</variableName>
+            <variableDescription>Air Temperature in degrees C</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>Degrees Celsius</unitName>
+                <unitType>Temperature</unitType>
+                <unitAbbreviation>C</unitAbbreviation>
+                <unitCode>3</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="5">
+                    <unitName>Minutes</unitName>
+                    <unitDescription>Minutes</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>Minutes</unitAbbreviation>
+                </unit>
+                <timeSupport>15.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="90">Light Intensity</variableCode>
+            <variableName>Luminous Flux</variableName>
+            <variableDescription>Light Intensity</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>Lux</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>Lux</unitAbbreviation>
+                <unitCode>44</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="5">
+                    <unitName>Minutes</unitName>
+                    <unitDescription>Minutes</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>Minutes</unitAbbreviation>
+                </unit>
+                <timeSupport>15.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="91">Status of Drought</variableCode>
+            <variableName>Remark</variableName>
+            <variableDescription>Used to track 2015 drought, catagorical value of pre-drought=1, drought=3, and post-drought=2</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Soil</sampleMedium>
+            <unit>
+                <unitName>categorical</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>categorical</unitAbbreviation>
+                <unitCode>46</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="25">
+                    <unitName>day</unitName>
+                    <unitDescription>day</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>day</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="92">DO Adj Conc</variableCode>
+            <variableName>Oxygen, dissolved</variableName>
+            <variableDescription>HOBO Adjusted concentration; need more details. </variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>milligrams per liter</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>mg/L</unitAbbreviation>
+                <unitCode>2</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="5">
+                    <unitName>Minutes</unitName>
+                    <unitDescription>Minutes</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>Minutes</unitAbbreviation>
+                </unit>
+                <timeSupport>15.</timeSupport>
+            </timeScale>
+            <speciation>O2</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="93">DO Percent Saturation-HOBO</variableCode>
+            <variableName>Oxygen, dissolved percent of saturation</variableName>
+            <variableDescription>HOBO software derived percent saturation; need more details.</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>Percent</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>%</unitAbbreviation>
+                <unitCode>21</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="5">
+                    <unitName>Minutes</unitName>
+                    <unitDescription>Minutes</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>Minutes</unitAbbreviation>
+                </unit>
+                <timeSupport>15.</timeSupport>
+            </timeScale>
+            <speciation>O2</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="95">CO2</variableCode>
+            <variableName>Carbon dioxide</variableName>
+            <variableDescription>Carbon Dioxide</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>parts per million</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>PPM</unitAbbreviation>
+                <unitCode>30</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="5">
+                    <unitName>Minutes</unitName>
+                    <unitDescription>Minutes</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>Minutes</unitAbbreviation>
+                </unit>
+                <timeSupport>15.</timeSupport>
+            </timeScale>
+            <speciation>CO2</speciation>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="107">pHCount-Raw</variableCode>
+            <variableName>pH</variableName>
+            <variableDescription>Raw pHCount values</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>millivolts; Potential Difference mV</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>mV</unitAbbreviation>
+                <unitCode>9</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="5">
+                    <unitName>Minutes</unitName>
+                    <unitDescription>Minutes</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>Minutes</unitAbbreviation>
+                </unit>
+                <timeSupport>15.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="108">Ct</variableCode>
+            <variableName>Electrical conductivity</variableName>
+            <variableDescription>Solution Eelectrical conductivity (Ct) with no temp. correction</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>Millisiemens per centimeter</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>mS/cm</unitAbbreviation>
+                <unitCode>50</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="5">
+                    <unitName>Minutes</unitName>
+                    <unitDescription>Minutes</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>Minutes</unitAbbreviation>
+                </unit>
+                <timeSupport>15.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="109">CDOM / fDOM</variableCode>
+            <variableName>Colored dissolved organic matter</variableName>
+            <variableDescription>cDOM/ fDOM - Colored dissolved organic matter, fluorescent dissolved organic matter</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Unknown</sampleMedium>
+            <unit>
+                <unitName>millivolts; Potential Difference mV</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>mV</unitAbbreviation>
+                <unitCode>9</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="5">
+                    <unitName>Minutes</unitName>
+                    <unitDescription>Minutes</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>Minutes</unitAbbreviation>
+                </unit>
+                <timeSupport>15.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="110">rainfall</variableCode>
+            <variableName>Precipitation</variableName>
+            <variableDescription>rainfall</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>millimeters</unitName>
+                <unitType>Length</unitType>
+                <unitAbbreviation>mm</unitAbbreviation>
+                <unitCode>54</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="24">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hour</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="114">RH - min daily</variableCode>
+            <variableName>Relative humidity</variableName>
+            <variableDescription>minimum daily relative humidity</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>Percent</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>%</unitAbbreviation>
+                <unitCode>21</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="24">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hour</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="115">PPFD</variableCode>
+            <variableName>Radiation, incoming PAR</variableName>
+            <variableDescription>Photosynthetic Photon Flux Density</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>millimoles per meter squared</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>millimoles / m^2</unitAbbreviation>
+                <unitCode>53</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="24">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hour</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="116">Wind speed - avg daily</variableCode>
+            <variableName>Wind speed</variableName>
+            <variableDescription>average wind speed</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>meters per second</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>m / s</unitAbbreviation>
+                <unitCode>57</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="24">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hour</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="118">wind rose 1-45 daily</variableCode>
+            <variableName>Wind direction</variableName>
+            <variableDescription>wind rose 1-45 degrees</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>meters per second</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>m / s</unitAbbreviation>
+                <unitCode>57</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="24">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hour</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="119">wind rose 46-90 daily</variableCode>
+            <variableName>Wind direction</variableName>
+            <variableDescription>wind rose 46-90 degrees</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>meters per second</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>m / s</unitAbbreviation>
+                <unitCode>57</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="24">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hour</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="120">wind rose 91-135 daily</variableCode>
+            <variableName>Wind direction</variableName>
+            <variableDescription>wind rose 91-135 degrees</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>meters per second</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>m / s</unitAbbreviation>
+                <unitCode>57</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="24">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hour</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="121">wind rose 136-180 daily</variableCode>
+            <variableName>Wind direction</variableName>
+            <variableDescription>wind rose 136-180 degrees</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>meters per second</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>m / s</unitAbbreviation>
+                <unitCode>57</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="24">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hour</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="122">wind rose 181-225 daily</variableCode>
+            <variableName>Wind direction</variableName>
+            <variableDescription>wind rose 181-225 degrees</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>meters per second</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>m / s</unitAbbreviation>
+                <unitCode>57</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="24">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hour</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="123">wind rose 226-270 daily</variableCode>
+            <variableName>Wind direction</variableName>
+            <variableDescription>wind rose 226-270 degrees</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>meters per second</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>m / s</unitAbbreviation>
+                <unitCode>57</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="24">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hour</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="124">wind rose 271-315 daily</variableCode>
+            <variableName>Wind direction</variableName>
+            <variableDescription>wind rose 271-315 degrees</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>meters per second</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>m / s</unitAbbreviation>
+                <unitCode>57</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="24">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hour</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="125">wind rose 316-360 daily</variableCode>
+            <variableName>Wind direction</variableName>
+            <variableDescription>wind rose 316-360 degrees</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>meters per second</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>m / s</unitAbbreviation>
+                <unitCode>57</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="24">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hour</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="126">Relative humidity</variableCode>
+            <variableName>Relative humidity</variableName>
+            <variableDescription>Relative humidity</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>Percent</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>%</unitAbbreviation>
+                <unitCode>21</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="24">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hour</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="127">Solar Radiation</variableCode>
+            <variableName>Radiation, total incoming</variableName>
+            <variableDescription>Solar Radiation</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>Watts per meter squared</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>Watts / m^2</unitAbbreviation>
+                <unitCode>51</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="24">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hour</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="128">Relative humidity - corrected</variableCode>
+            <variableName>Relative humidity</variableName>
+            <variableDescription>Relative humidity - corrected</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>Percent</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>%</unitAbbreviation>
+                <unitCode>21</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="24">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hour</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="129">Time max wind speed - daily</variableCode>
+            <variableName>Time Stamp</variableName>
+            <variableDescription>Time of maximum wind speed - daily</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>hour and minute</unitName>
+                <unitType>Time</unitType>
+                <unitAbbreviation>hhmm</unitAbbreviation>
+                <unitCode>55</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="24">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hour</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="130">Time max relative humidity - daily</variableCode>
+            <variableName>Time Stamp</variableName>
+            <variableDescription>Time max relative humidity - daily</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>hour and minute</unitName>
+                <unitType>Time</unitType>
+                <unitAbbreviation>hhmm</unitAbbreviation>
+                <unitCode>55</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="24">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hour</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="131">Time max temperature - daily</variableCode>
+            <variableName>Time Stamp</variableName>
+            <variableDescription>Time of maximum temperature - daily</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>hour and minute</unitName>
+                <unitType>Time</unitType>
+                <unitAbbreviation>hhmm</unitAbbreviation>
+                <unitCode>55</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="24">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hour</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="132">Time min temperature - daily</variableCode>
+            <variableName>Time Stamp</variableName>
+            <variableDescription>Time of minimum temperature - daily</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>hour and minute</unitName>
+                <unitType>Time</unitType>
+                <unitAbbreviation>hhmm</unitAbbreviation>
+                <unitCode>55</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="24">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hour</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="133">Time min wind speed - daily</variableCode>
+            <variableName>Time Stamp</variableName>
+            <variableDescription>Time min wind speed - daily</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>hour and minute</unitName>
+                <unitType>Time</unitType>
+                <unitAbbreviation>hhmm</unitAbbreviation>
+                <unitCode>55</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="24">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hour</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="135">Time min relative humidity - daily</variableCode>
+            <variableName>Time Stamp</variableName>
+            <variableDescription>Time of minimum relative humidity - daily</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>hour and minute</unitName>
+                <unitType>Time</unitType>
+                <unitAbbreviation>hhmm</unitAbbreviation>
+                <unitCode>55</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="24">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hour</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="136">Wind vector daily</variableCode>
+            <variableName>Wind direction</variableName>
+            <variableDescription>Wind vector</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>meters per second</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>m / s</unitAbbreviation>
+                <unitCode>57</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="24">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hour</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="137">Sig Theta</variableCode>
+            <variableName>Wind direction</variableName>
+            <variableDescription>Sig Theta</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>wind vector</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>wind vector</unitAbbreviation>
+                <unitCode>59</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="24">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hour</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="138">rainfall - daily</variableCode>
+            <variableName>Precipitation</variableName>
+            <variableDescription>daily rainfall</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>millimeters</unitName>
+                <unitType>Length</unitType>
+                <unitAbbreviation>mm</unitAbbreviation>
+                <unitCode>54</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="24">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hour</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="139">Wind speed - max daily</variableCode>
+            <variableName>Wind speed</variableName>
+            <variableDescription>Maximum daily wind speed</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>meters per second</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>m / s</unitAbbreviation>
+                <unitCode>57</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="24">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hour</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="140">Max air temp - daily</variableCode>
+            <variableName>Temperature</variableName>
+            <variableDescription>daily maximum temperature</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>Degrees Celsius</unitName>
+                <unitType>Temperature</unitType>
+                <unitAbbreviation>C</unitAbbreviation>
+                <unitCode>3</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="24">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hour</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="141">Max relative humidity - daily</variableCode>
+            <variableName>Relative humidity</variableName>
+            <variableDescription>Max relative humidity - daily</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>Percent</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>%</unitAbbreviation>
+                <unitCode>21</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="24">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hour</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="142">Wind speed - min daily</variableCode>
+            <variableName>Wind speed</variableName>
+            <variableDescription>Minimum daily wind speed</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>meters per second</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>m / s</unitAbbreviation>
+                <unitCode>57</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="24">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hour</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="143">Min air temp - daily</variableCode>
+            <variableName>Temperature</variableName>
+            <variableDescription>minimum daily temperature</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>Degrees Celsius</unitName>
+                <unitType>Temperature</unitType>
+                <unitAbbreviation>C</unitAbbreviation>
+                <unitCode>3</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="24">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hour</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="144">wind direction - avg daily</variableCode>
+            <variableName>Wind direction</variableName>
+            <variableDescription>wind direction</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>degrees angle</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>degrees angle</unitAbbreviation>
+                <unitCode>58</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="24">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hour</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="145">Solar radiation - daily total</variableCode>
+            <variableName>Radiation, total incoming</variableName>
+            <variableDescription>Solar radiation - daily total</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>Kilojoules per meter squared</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>Kilojoules / m^2</unitAbbreviation>
+                <unitCode>52</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="24">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hour</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="146">PPFD - daily total</variableCode>
+            <variableName>Radiation, incoming PAR</variableName>
+            <variableDescription>Photosynthetic Photon Flux Density</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>millimoles per meter squared</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>millimoles / m^2</unitAbbreviation>
+                <unitCode>53</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="24">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hour</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+        <variable>
+            <variableCode default="true" vocabulary="odm2timeseries" variableID="147">Wind direction- sd daily</variableCode>
+            <variableName>Wind speed</variableName>
+            <variableDescription>standard deviation of wind direction</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Unknown</dataType>
+            <generalCategory>Unknown</generalCategory>
+            <sampleMedium>Air</sampleMedium>
+            <unit>
+                <unitName>degrees angle</unitName>
+                <unitType>Dimensionless</unitType>
+                <unitAbbreviation>degrees angle</unitAbbreviation>
+                <unitCode>58</unitCode>
+            </unit>
+            <noDataValue>-6999.0000000000</noDataValue>
+            <timeScale>
+                <unit unitID="24">
+                    <unitName>hour</unitName>
+                    <unitDescription>hour</unitDescription>
+                    <unitType>Time</unitType>
+                    <unitAbbreviation>hour</unitAbbreviation>
+                </unit>
+                <timeSupport>1.</timeSupport>
+            </timeScale>
+        </variable>
+    </variables>
+</variablesResponse>
