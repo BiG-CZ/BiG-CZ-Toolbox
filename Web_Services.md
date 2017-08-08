@@ -10,10 +10,9 @@ These web services are currently being developed by SDSC (Choonhan and Dave).
 ### ODM2REST API / web services
 - https://github.com/ODM2/ODM2RESTfulWebServices
 - ODM2 REST API's. Based on Django Swagger
-  - "Production" (original alpha release): http://sis-devel.cloudapp.net/docs/
-  - [New dev](https://github.com/ODM2/ODM2RESTfulWebServices/issues/1#issuecomment-132387462), based on my feedback 
-  (below); only implemented on JSON response; untested: http://sis-devel.cloudapp.net:9090/docs/
-- [Feedback on the alpha release - Part 1](https://github.com/ODM2/ODM2RESTfulWebServices/issues/1)
+  - Current accessible use case deployed by Choonhan ~ July 2017. http://54.213.227.245:8080/docs/  Based on the [last version/enhancements of Choonhan's code](https://github.com/ODM2/ODM2RESTfulWebServices/issues/1#issuecomment-132387462), and only including the Marchantaria use case, and only implemented with JSON response
+  - Archival/old info from 2015: Former "Production" (*original alpha release*) was at http://sis-devel.cloudapp.net/docs/; the subsequent, last deployment was at http://sis-devel.cloudapp.net:9090/docs/. These Azure cloud instances were taken down in 2016.
+- [Feedback on the *alpha release* - Part 1](https://github.com/ODM2/ODM2RESTfulWebServices/issues/1)
 - [Illustrating the use of ODM2 REST web services with the ODM2 Marchantaria use case (ipython notebook)](http://nbviewer.ipython.org/github/BiG-CZ/BiG-CZ-Toolbox/blob/master/ipynotebooks/ODM2RESTdemo_MarchantariaUseCase.ipynb)
 
 ### ODM2 WOFpy WOF 1.x endpoints
